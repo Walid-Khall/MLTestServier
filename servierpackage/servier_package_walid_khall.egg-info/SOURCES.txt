@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+servierpackage/app/__init__.py
+servierpackage/models/__init__.py
+servierpackage/models/model1.py
+servierpackage/models/model2.py
+servierpackage/models/model3.py
+servierpackage/servier_package_walid_khall.egg-info/PKG-INFO
+servierpackage/servier_package_walid_khall.egg-info/SOURCES.txt
+servierpackage/servier_package_walid_khall.egg-info/dependency_links.txt
+servierpackage/servier_package_walid_khall.egg-info/top_level.txt
