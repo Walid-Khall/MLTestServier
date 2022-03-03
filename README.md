@@ -76,7 +76,10 @@ This will install all of the required packages we selected within the `requireme
 
 
 1. There is two methods to run this app
+
+
    1.1. Run the main.py in the main package and and follow the instructions.
+   
 
    1.2. Run the following commands in the project's root directory to set up your database and model.
 
@@ -99,7 +102,10 @@ This will install all of the required packages we selected within the `requireme
 You can install this package by typing:
 `py -m pip install --index-url https://test.pypi.org/simple/ --no-deps servier-package-walid-khall`
 
-You can test that it was installed correctly by importing the package. Make sure you’re still in your virtual environment, then run Python:  `py`
+You can test that it was installed correctly by importing the package `>>import servierpackage`.
+
+
+Make sure you’re still in your virtual environment, then run Python:  `py`
 Import the package `>>from servierpackage import main`
 
 Execute `>> main.main()` and follow the instructions.
