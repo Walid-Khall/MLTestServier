@@ -108,12 +108,6 @@ You can test that it was installed correctly by importing the package `>>import 
 
 Make sure you’re still in your virtual environment, then run Python:  `py`
 
-You can test that it was installed correctly by importing the package. Make sure you’re still in your virtual environment, then run Python:  `py`
-
-=======
-You can test that it was installed correctly by importing the package `>>import servierpackage`.
-Make sure you’re still in your virtual environment, then run Python:  `py`
-
 Import the package `>>from servierpackage import main`
 
 Execute `>> main.main()` and follow the instructions.
