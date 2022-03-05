@@ -102,7 +102,7 @@ This will install all of the required packages we selected within the `requireme
 
 
 You can install this package by typing:
-`py -m pip install --index-url https://test.pypi.org/simple/ --no-deps servier-package-walid-khall`
+`pip install -i https://test.pypi.org/simple/ servier-package-walid-khall`
 
 You can test that it was installed correctly by importing the package `>>import servierpackage`.
 
