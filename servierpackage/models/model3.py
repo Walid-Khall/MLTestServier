@@ -49,11 +49,11 @@ def data_prepocessing(csv_filepath):
     
     y = y.to_numpy()
     
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=1000)
-
     vectorizer = CountVectorizer()
-
-    vectorizer.fit(X_train)
+    
+    vectorizer.fit(X)
+    
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=1000)
 
     X_train = vectorizer.transform(X_train)
 
