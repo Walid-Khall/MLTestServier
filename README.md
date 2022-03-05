@@ -111,3 +111,17 @@ Make sure you’re still in your virtual environment, then run Python:  `py`
 Import the package `>>from servierpackage import main`
 
 Execute `>> main.main()` and follow the instructions.
+
+Or you can use the package as following:
+
+ `>> from servierpackage.models import model1`
+
+`>> X_train, X_test, Y_train, Y_test  = model1.data_prepocessing(your_file.csv)`
+
+`>> model = model1.build_model()`
+
+`>> model.fit(X_train, Y_train, epochs=10, batch_size=128)`
+
+`>> model1.evaluate_model(model, X_test, Y_test)`
+
+
