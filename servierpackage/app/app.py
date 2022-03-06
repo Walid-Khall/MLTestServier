@@ -42,12 +42,8 @@ def get_prediction():
     SMILE = fingerprint_features(SMILE)
     SMILE = np.frombuffer(SMILE.ToBitString().encode(), 'u1') - ord('0')
     SMILE = SMILE.reshape((1, 2048))
-    return 'The predection of P1 is: {}'.format(model.predict(SMILE))
+    return 'The predection of P1 is:{}'.format(model.predict(SMILE))
       
-    # #   return STRING
-    # return app
-
-# app = create_app()
 
 def main():
     app.run(host='127.0.0.1', port=3001, debug=True)
